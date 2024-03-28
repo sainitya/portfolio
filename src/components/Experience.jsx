@@ -46,7 +46,7 @@ function Experience(props) {
 
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} />
 
       {data
         ? (
@@ -100,7 +100,8 @@ function Experience(props) {
               </Timeline>
             </Container>
           </div>
-        ) : <FallbackSpinner /> }
+        ) : <FallbackSpinner /> } */}
+         <h2>This section is currently under maintenance.</h2>
     </>
   );
 }

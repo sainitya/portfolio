@@ -41,7 +41,7 @@ function Education(props) {
 
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} />
       {data ? (
         <Fade>
           <div style={{ width }} className="section-content-container">
@@ -74,7 +74,8 @@ function Education(props) {
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : <FallbackSpinner /> } */}
+       <h2>This section is currently under maintenance.</h2>
     </>
   );
 }

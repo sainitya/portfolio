@@ -34,7 +34,7 @@ const Projects = (props) => {
   const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} />
       {data
         ? (
           <div className="section-content-container">
@@ -59,7 +59,8 @@ const Projects = (props) => {
                 )}
             </Container>
           </div>
-        ) : <FallbackSpinner /> }
+        ) : <FallbackSpinner /> } */}
+         <h2>This section is currently under maintenance.</h2>
     </>
   );
 };

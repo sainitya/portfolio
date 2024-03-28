@@ -22,19 +22,19 @@
         },
         {
             "title": "Education",
-            "href": ""
+            "href": "/education"
         },
         {
             "title": "Experience",
-            "href": ""
+            "href": "/experience"
         },
         {
             "title": "Projects",
-            "href": ""
+            "href": "/projects"
         },
         {
             "title": "Resume",
-            "href": "",
+            "href": "https://drive.google.com/file/d/1CldPUSVdyOsedQIt7E1F6d_HE39l-kQx/view?usp=drive_link",
             "type": "link"
         }
     ]
