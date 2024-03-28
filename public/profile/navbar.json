@@ -4,6 +4,9 @@
         "height" : 45,
         "width" : 50
     },
+    "info" : {
+        "name": "S. N. Bector"
+    },
     "sections": [
         {
             "title": "Home",

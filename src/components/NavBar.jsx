@@ -39,6 +39,7 @@ const InternalNavLink = styled(NavLink)`
 const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
+  console.log(data);
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
@@ -62,7 +63,7 @@ const NavBar = () => {
       <Container>
         {data?.logo && (
           <Navbar.Brand href="/">
-            <img
+            {/* <img
               src={data?.logo?.source}
               className="d-inline-block align-top"
               alt="main logo"
@@ -71,7 +72,8 @@ const NavBar = () => {
                   ? { height: data?.logo?.height, width: data?.logo?.width }
                   : styles.logoStyle
               }
-            />
+            /> */}
+              <span style={{ marginLeft: '10px' }}>{data?.info.name}</span> {/* Add your name here */}
           </Navbar.Brand>
         )}
         <Navbar.Toggle
