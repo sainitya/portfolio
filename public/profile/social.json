@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/sainityabector"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/saibector"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:snbector@gmail.com"
+        }
+    ]
+}
