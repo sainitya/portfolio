@@ -1,4 +1,6 @@
 {
-    "name": "Sai Nitya Bector",
-    "roles": ["a Web Developer", "a Software Engineer"]
+    "about": "Experienced Software Engineer/ Web Developer with a focus on cloud architecture, API design, web service integration, and data visualization tools. Proficient in microservices and adept at leveraging cloud services for scalability and reliability. Passionate about solving complex problems and delivering innovative solutions in cloud environments.",
+    "imageSource": "images/about/passport.jpg",
+    "header": "About Me",
+    "meetingMessage": "Go through my $portfolio and $skills and if you believe I could be a valuable addition to your team, perhaps we can explore working together. $calendy"
 }

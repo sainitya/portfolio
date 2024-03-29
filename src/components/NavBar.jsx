@@ -39,7 +39,6 @@ const InternalNavLink = styled(NavLink)`
 const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
-  console.log(data);
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
