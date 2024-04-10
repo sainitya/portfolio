@@ -1,33 +1,34 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Full Stack Developer",
+            "subtitle": "Flighthub",
+            "workType": "Montreal, QC",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Enhanced FlightHub's customer service application by designing and developing APIs using PHP and React.js, resulting in improved efficiency and user experience post-pandemic. Implemented Twilio Chat and IVR integration, enhancing communication and navigation.",
+                "Optimized customer service applications through statistical data analysis, leading to a decrease in average handling time and an increase in customer satisfaction scores. Implemented interactive voice response phone system flows, reducing call abandonment rates and enhancing overall customer engagement. Conducted comprehensive code reviews, resulting in improved code quality and maintainability, thereby improving FlightHub's application stability, reliability, and data security."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "06/2021 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Back-End Developer",
+            "subtitle": "Sportswizz ltd",
+            "workType": "Chd, India",
             "workDescription": [
-                "Worked on abc."
+                "Extensive experience developing REST applications on modern MVC PHP frameworks such as Laravel, emphasizing data integrity and performance.",
+                "Designed and implemented a database framework for managing live cricket match scores from microservice APIs, resulting in a 50% increase in system reliability with in a week. Leveraged AWS EC2 and S3 to optimize data infrastructure and enhance data processing speed."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "01/2018 – 12/2019"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Web Developer",
+            "subtitle": "OD Pay ",
+            "workType": "(Mobile Based Payment App)",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Develop clean and maintainable services based on product management and Front-end requirements while keeping in mind RESTful API design guideline",
+                "Optimized data infrastructure by leveraging AWS EC2 and S3, resulting in a 50% increase in system reliability"
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "10/2014 – 11/2016"
         }
     ]
 }

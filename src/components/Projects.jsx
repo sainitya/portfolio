@@ -32,12 +32,19 @@ const Projects = (props) => {
       .catch((err) => err);
   }, []);
   const numberOfItems = showMore && data ? data.length : 6;
+
+
+  // Function to prevent default right-click behavior
+  const handleRightClick = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <>
-      {/* <Header title={header} />
+      <Header title={header} />
       {data
         ? (
-          <div className="section-content-container">
+          <div className="section-content-container" onContextMenu={handleRightClick}>
             <Container style={styles.containerStyle}>
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (
@@ -59,8 +66,7 @@ const Projects = (props) => {
                 )}
             </Container>
           </div>
-        ) : <FallbackSpinner /> } */}
-         <h2>This section is currently under maintenance.</h2>
+        ) : <FallbackSpinner /> }
     </>
   );
 };
